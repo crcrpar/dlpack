@@ -138,7 +138,7 @@ typedef struct {
   /*! \brief The shape of the tensor */
   int64_t* shape;
   /*!
-   * \brief strides of the tensor,
+   * \brief strides of the tensor, expressed as number of elements,
    *  can be NULL, indicating tensor is compact.
    */
   int64_t* strides;
